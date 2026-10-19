@@ -1,0 +1,18 @@
+{
+  "platform": {
+    "base_url": "http://YOUR_PLATFORM_HOST/tempo-talents/",
+    "username": "YOUR_STUDENT_ID",
+    "password": "YOUR_PASSWORD",
+    "classroom_id": ""
+  },
+  "ai": {
+    "answer_timeout": 180
+  },
+  "run": {
+    "max_retry": 2,
+    "delay_between_steps": 3,
+    "skip_passed": true,
+    "cleanup_chat": true,
+    "questions_per_chat": 3
+  }
+}
